@@ -43,20 +43,20 @@
   <string name="logout">abmelden</string>
   <string name="settings">Einstellungen</string>
   <string formatted="false" name="welcome_to_surespot"><![CDATA["Willkommen bei surespot! Daten die mit dieser App versendet werden sind mit einem <a href="https://de.wikipedia.org/wiki/Symmetrisches_Kryptosystem">Symmetrischen Kryptosystem</a> (<a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">256 bit AES-GCM</a>) <a href="https://de.wikipedia.org/wiki/Ende-zu-Ende-Verschl%C3%BCsselung">Ende-zu-Ende-verschlüsselt</a> dessen Schlüssel mit 521bit durch das <a href="https://de.wikipedia.org/wiki/Elliptic_Curve_Diffie-Hellman">Diffie-Hellman-Schlüsselaustausch</a>-Verfahren erzeugt wurden."]]></string>
-  <string name="no_friends">Keine Kontakte...für den Moment.  Um weitere surespot-user einzuladen, gib deren Benutzername unten ein.</string>
-  <string name="help_invite">Laden sie surespot-Benutzer ein, indem sie deren Benutzername auf der Startseite eingeben.</string>
-  <string name="invite_contacts">Verwenden Sie die \'Kontakte einladen\' Menü-Option, um Benutzer per QR-Code, E-Mail, SMS oder einer anderen Anwendungen einzuladen.</string>
-  <string name="navigate_between_chat_tabs">Wischen Sie über den Bildschirm um zwischen den Tabs zu wechseln.</string>
-  <string name="help_holdmessage">Halten Sie die Nachricht gedrückt, um auf die Nachrichtenoptionen zu gelangen.</string>
-  <string name="help_holdfriend">Halten Sie einen Kontakt gedrückt, um auf die Kontaktoptionen zu gelangen.</string>
-  <string name="help_imageZoom">Berühren sie das Bild, um es zu vergrößern.</string>
-  <string name="incorrect_password_or_key">Falsches Passwort oder falscher Schlüssel</string>
+  <string name="no_friends">Du hast derzeit noch keine Kontakte.  Um weitere surespot-user einzuladen, gib deren Benutzername unten ein.</string>
+  <string name="help_invite">Laden Sie surespot-Benutzer ein, indem Sie deren Benutzername auf der Startseite eingeben.</string>
+  <string name="invite_contacts">Verwenden Sie \'Kontakte einladen\', um Benutzer per QR-Code, E-Mail, SMS oder einer anderen Anwendungen einzuladen.</string>
+  <string name="navigate_between_chat_tabs">Wischen Sie über den Bildschirm, um zwischen den Tabs zu wechseln.</string>
+  <string name="help_holdmessage">Nachricht gedrückt halten, um Nachrichtenoptionen anzuzigen.</string>
+  <string name="help_holdfriend">Kontakt gedrückt halten, um Kontaktoptionen anzuzeigen.</string>
+  <string name="help_imageZoom">Bild berühren zum vergrößern.</string>
+  <string name="incorrect_password_or_key">Passwort oder Schlüssel falsch</string>
   <string name="no_such_user">Nutzer nicht gefunden</string>
   <string name="roll_keys">Erzeuge neues Schlüsselpaar</string>
   <string name="key_management">Erzeuge neues Schlüsselpaar...</string>
   <string name="regenerate_keys">Erzeuge neues Schlüsselpaar</string>
   <string name="could_not_create_new_keys">Schlüsselpaar konnte nicht erstellt werden</string>
-  <string name="keys_created">Neue Schlüssel wurden erfolgreich erzeugt, bitte exportieren sie ihr Profil.</string>
+  <string name="keys_created">Neue Schlüssel wurden erfolgreich erzeugt. Bitte exportieren Sie ihr Profil.</string>
   <string name="close_tab">Tab schließen</string>
   <string name="action_settings">Einstellungen</string>
   <string name="no_messages">Keine Mitteilungen</string>
@@ -66,11 +66,11 @@
   <string name="accept_underline"><u>akzeptieren</u></string>
   <string name="crash_toast_text">Fehler aufgetreten.</string>
   <string name="crash_dialog_title">surespot ist abgestürzt</string>
-  <string name="crash_dialog_text">Wir müssen leider eingestehen, das es einen unerwarteten Fehler gab.\n\nBitte helfen sie uns indem sie durch das tippen auf \"OK\" einen Fehlerbericht an uns senden, welcher keine Informationen beinhaltet, durch die sie identifiziert werden können.</string>
+  <string name="crash_dialog_text">Ein Fehler ist aufgetreten.\n\nBitte helfen Sie uns indem Sie durch tippen auf \"OK\" einen anonymisiereten Fehlerbericht an uns senden.</string>
   <string name="crash_dialog_comment_prompt">Falls Sie möchten, können Sie uns einen Kommentar über das Problem mitteilen:</string>
   <string name="crash_dialog_ok_toast">Danke!</string>
   <string name="external_invite_message">Ich würde gerne mit Ihnen via surespot verschlüsselt chatten. Klicken Sie %s, um die app zu installieren und mich als Kontakt aufzunehmen.</string>
-  <string name="help_backupIdentities1">Falls Sie Ihr Handy verlieren oder die App deinstallieren und erneut installieren, haben Sie keinen Zugriff mehr auf Ihre Profildaten. Sie werden nicht in der Lage sein sich anzumelden, falls Sie nicht zuvor Ihr Profil exportiert haben. Die surespot-Verschlüsselungsschlüssel werden niemals auf unsere Server hochgeladen.</string>
+  <string name="help_backupIdentities1">Falls Sie Ihr Handy verlieren oder die App deinstallieren und erneut installieren, haben Sie keinen Zugriff mehr auf Ihre Profildaten. Sie werden nicht in der Lage sein sich anzumelden, falls Sie nicht zuvor Ihr Profil exportiert haben. Wir haben keinen Zugriff auf Ihre surespot-Schlüssel.</string>
   <string name="help_backupIdentities2">Surespot kann ihr Profil Lokal und/oder auf Google Drive exportieren. Die dazugehörigen Einstellungen befinden sich in der Profilverwaltung.</string>
   <string name="help_backup_what"><![CDATA["Exportiert eine Kopie des gewählten Profils, verschlüsselt mit <a href="http://www.eetimes.com/design/embedded-internet-design/4372428/How-secure-is-AES-against-brute-force-attacks-">256 bit AES-GCM</a> dessen Schlüssel durch <a href="https://de.wikipedia.org/wiki/PBKDF2">PBKDF</a> (Password Based Key Derivation Function) von ihrem Passwort abgeleitet wurde."]]></string>
   <string name="help_backup_local">Für maximale Sicherheit empfehlen wir, das Backup auf dem Lokalem Datenträger zu erstellen. Nach dem Export Ihrer Profil-Datei sollte diese auf ein sicheres externes Laufwerk kopiert werden, so dass es im Fall eines verlorenen oder gestohlenen Gerätes bzw. der Deinstallation der App wiederhergestellt werden kann.</string>
